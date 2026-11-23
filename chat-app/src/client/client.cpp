@@ -1,4 +1,5 @@
 #include "cli_parse.h"
+#include "UniqueSocket.h"
 
 #include <iostream>
 
@@ -14,4 +15,5 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     return 0;
+
 }
